@@ -33,6 +33,12 @@
           "text-underline-offset"
         ]
       }
+    ],
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
     ]
   }
 }

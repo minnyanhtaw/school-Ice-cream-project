@@ -321,10 +321,108 @@
       </div>
     </section>
 
-    <section class="delivery-section">
-      <div></div>
-      <div></div>
-    </section>
+    <form class="delivery-section">
+      <h2 class="heading">My Order</h2>
+
+      <div class="delivery-section-container">
+        <div class="time-input-section">
+
+          <label for="delivery-time" class="time-input-label"
+            >Email Address</label
+          ><br />
+          <input
+            class="delivery-input"
+            type="email"
+            id="delivery-time"
+            required
+            placeholder="Enter Your Email Address"
+          /><br />
+
+          <label for="delivery-time" class="time-input-label"
+            >Delivery Time</label
+          ><br />
+          <input
+            class="delivery-input"
+            type="time"
+            id="delivery-time"
+            required
+          /><br />
+
+          <label for="delivery-date" class="time-input-label"
+            >Delivery Date</label
+          ><br />
+          <input
+            class="delivery-input"
+            type="date"
+            id="delivery-date"
+            placeholder=""
+            required
+          /><br />
+
+          <label for="delivery-location" class="time-input-label"
+            >Location</label
+          ><br />
+          <input
+            class="delivery-input"
+            type="text"
+            id="delivery-location"
+            placeholder="Enter Your Location"
+            required
+          /><br />
+        </div>
+        <div class="menu-item-section">
+          <div class="order-menu-item">
+            <div class="order-menu-img-box">
+              <img
+                class="order-menu-img"
+                src="/menu-img/strawberrynew-2.jpg"
+                alt=""
+              />
+              <h3 class="menu-item-name">Classic Strawberry Ice Cream</h3>
+            </div>
+            <p class="count">- 1 +</p>
+            <p class="menu-item-price">$ 2.23</p>
+          </div>
+          <div class="order-menu-item">
+            <div class="order-menu-img-box">
+              <img
+                class="order-menu-img"
+                src="/menu-img/avocado-1.jpg"
+                alt=""
+              />
+              <h3 class="menu-item-name">Avocado Milk</h3>
+            </div>
+            <p class="count">- 2 +</p>
+            <p class="menu-item-price">$ 3.98</p>
+          </div>
+          <div class="order-menu-item">
+            <div class="order-menu-img-box">
+              <img class="order-menu-img" src="/menu-img/yogurt-4.jpg" alt="" />
+              <h3 class="menu-item-name">Expresso Ice Cream</h3>
+            </div>
+            <p class="count">- 1 +</p>
+            <p class="menu-item-price">$ 2.25</p>
+          </div>
+          <div class="order-menu-item" style="margin-bottom: 5px">
+            <div class="order-menu-img-box">
+              <img
+                class="order-menu-img"
+                src="/menu-img/chocolate-1.jpg"
+                alt=""
+              />
+              <h3 class="menu-item-name">Decadent Chocolate</h3>
+            </div>
+            <p class="count">- 3 +</p>
+            <p class="menu-item-price">$ 5.97</p>
+          </div>
+          <div class="total-price-box">
+            <p class="total-price">Total : <span>$14.43</span></p>
+            <button class="order-btn">Order</button>
+            <!-- <p class="total-price menu-item-price">$ 34.54</p> -->
+          </div>
+        </div>
+      </div>
+    </form>
 
     <footer class="footer-section">
       <div class="footer-item-container">
