@@ -116,11 +116,13 @@
   gap: 50px;
   list-style: none;
 }
+
 .list-item a {
   text-decoration: none;
   color: #41332c;
   transition: 700ms;
 }
+
 .list-item a:hover {
   color: #eaa234;
   text-decoration: underline;
