@@ -1,5 +1,5 @@
 .hero-container {
-  padding: 100px 150px;
+  padding: 100px 200px;
   position: relative;
   overflow: hidden;
   background-image: url("/img/vanilla-sweet-natural-ice-cream-background.jpg");
@@ -22,10 +22,11 @@
   margin: 0 auto 20px auto;
   letter-spacing: 2px;
   color: #41332c;
-  max-width: 50%;
+  max-width: 55%;
   z-index: 1;
   position: relative;
 }
+
 .hero-container span {
   color: #eaa234;
   text-decoration: underline;
@@ -71,8 +72,8 @@
 /* Menu */
 
 .menu-section {
-  margin-top: 100px;
-  padding: 0 150px;
+  padding: 100px 200px 0 200px;
+  background-color: #fcf9ef;
 }
 
 .menu-section-para {

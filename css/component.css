@@ -180,7 +180,7 @@
   /* margin-top: 100px; */
   align-items: center;
   gap: 30px;
-  padding: 50px 150px;
+  padding: 50px 200px;
 }
 .why-choose-us-bg-overlay {
   background-color: rgba(250, 247, 237, 0.725);
@@ -237,7 +237,7 @@
 /* Customer Review */
 
 .review-section {
-  padding: 100px 150px;
+  padding: 100px 200px;
   background-color: #fcf9ef;
 }
 
@@ -288,7 +288,7 @@
 /* Contact */
 
 .contact-container {
-  padding: 0 150px;
+  padding: 0 200px;
   margin-top: 100px;
   margin-bottom: 80px;
 }
@@ -452,7 +452,7 @@
 /* ============= FIRST SECTION ============ */
 
 .first-section {
-  padding: 150px;
+  padding: 150px 200px;
   margin-bottom: 50px;
   letter-spacing: 1px;
   background-image: url('/img/vanilla-sweet-natural-ice-cream-background.jpg');
@@ -488,7 +488,7 @@
 /* ============HOME=====SERVICE SECTION ====================== */
 
 .services-section {
-  padding: 0 150px;
+  padding: 0 200px;
 }
 .services-container {
   display: flex;
@@ -523,7 +523,7 @@
 .withLove-para {
   color: #41332c;
   font-size: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   letter-spacing: 1px;
 }
 
@@ -625,5 +625,76 @@
   display: block;
 }
 
-/* ================== BULK SECTION ======================== */
+/* ================== ARTICLE SECTION ======================== */
+
+.article-section {
+  padding: 60px 200px;
+  /* border: 1px solid red; */
+}
+
+.article-section-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  /* border: 1px solid blue; */
+}
+
+.article-box {
+  width: 32%;
+  border-bottom: 1px solid rgb(71, 71, 71);
+}
+
+.article-img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.article-content {
+  position: relative;
+  top: -50px;
+}
+
+.article-box-title {
+  padding: 15px 20px;
+  border-top-right-radius: 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+  background-color: white;
+  color: #eaa234;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.article-box-heading {
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #41332c;
+  margin-bottom: 15px;
+}
+
+.article-date-box {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.article-date-box i {
+  color: gray;
+}
+
+.article-date-box span {
+  color: rgb(34, 34, 34);
+  letter-spacing: 1px;
+}
+
+.article-text {
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: 14px;
+  color: rgb(60, 60, 60);
+  max-width: 90%;
+}
 
