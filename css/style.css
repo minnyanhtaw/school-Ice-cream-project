@@ -1,5 +1,5 @@
 .hero-container {
-  padding: 100px 200px;
+  padding: 100px 250px;
   position: relative;
   overflow: hidden;
   background-image: url("/img/vanilla-sweet-natural-ice-cream-background.jpg");
@@ -72,7 +72,7 @@
 /* Menu */
 
 .menu-section {
-  padding: 100px 200px 0 200px;
+  padding: 100px 250px 0 250px;
   background-color: #fcf9ef;
 }
 

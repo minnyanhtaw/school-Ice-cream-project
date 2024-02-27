@@ -1,8 +1,7 @@
-
 /* MEET OUR TEAM  */
 
 .team-section {
-  padding: 50px 150px;
+  padding: 50px 250px;
 }
 
 .team-section-para {
@@ -105,13 +104,11 @@
   opacity: 1;
 }
 
-
-
 /* QUESTION ABOUT US  */
 
 .question-section {
   display: flex;
-  padding: 50px 150px;
+  padding: 50px 250px;
   align-items: center;
 }
 
@@ -119,7 +116,6 @@
   width: 50%;
   padding: 20px;
 }
-
 
 .question-section-left-heading {
   font-size: 40px;
@@ -170,61 +166,3 @@
   line-height: 30px;
   color: rgb(104, 104, 104);
 }
-
-.table-section {
-  padding: 60px 150px;
-}
-
-.table-section-container {
-  display: flex;
-  width: 100%;
-  gap: 15px;
-}
-
-.statistics-table{
-  width: 40%;
-  border-collapse: collapse;
-  letter-spacing: 1px;
-  box-shadow: 1px 2px 5px gray;
-  border-radius: 15px;
-  overflow: hidden;
-}
-
-.statistics-table thead,
-.menu-table thead {
-  font-size: 30px;
-  color: #41332c;
-  font-weight: bold;
-  border-bottom: 1px solid #41332c;
-}
-
-.statistics-table th,
-.statistics-table td {
-  width: 40%;
-  height: 60px;
-  text-align: center;
-  color: #41332c;
-}
-
-.statistics-table tr:nth-child(even),
-.menu-table tr:nth-child(even) {
-  background-color: #FFF6D8;
-}
-
-.menu-table {
-  width: 60%;
-  border-collapse: collapse;
-  letter-spacing: 1px;
-  border-radius: 15px;
-  color: #41332c;
-  text-align: center;
-  box-shadow: 1px 2px 5px gray;
-  overflow: hidden;
-}
-
-.menu-table th,
-.menu-table td{
-  width: 20%;
-  height: 60px;
-}
-

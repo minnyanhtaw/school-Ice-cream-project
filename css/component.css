@@ -94,7 +94,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 10px 30px;
+  padding: 20px 30px;
   /* position: sticky; */
   top: 0;
   background-color: white;
@@ -133,7 +133,7 @@
 
 .about-us {
   display: flex;
-  padding: 0 150px;
+  padding: 0 250px;
   gap: 20px;
   align-items: center;
 }
@@ -180,7 +180,7 @@
   /* margin-top: 100px; */
   align-items: center;
   gap: 30px;
-  padding: 50px 200px;
+  padding: 50px 250px;
 }
 .why-choose-us-bg-overlay {
   background-color: rgba(250, 247, 237, 0.725);
@@ -237,7 +237,7 @@
 /* Customer Review */
 
 .review-section {
-  padding: 100px 200px;
+  padding: 100px 250px;
   background-color: #fcf9ef;
 }
 
@@ -351,7 +351,7 @@
 
 .footer-section {
   background-color: #fcf9ef;
-  padding: 50px 150px 0 150px;
+  padding: 50px 250px 0 250px;
   letter-spacing: 1px;
 }
 
@@ -440,7 +440,7 @@
 }
 
 .copyright {
-  padding: 20px 150px;
+  padding: 20px 250px;
   letter-spacing: 1px;
   display: flex;
   justify-content: space-between;
@@ -452,7 +452,7 @@
 /* ============= FIRST SECTION ============ */
 
 .first-section {
-  padding: 150px 200px;
+  padding: 150px 300px;
   margin-bottom: 50px;
   letter-spacing: 1px;
   background-image: url('/img/vanilla-sweet-natural-ice-cream-background.jpg');
@@ -488,7 +488,7 @@
 /* ============HOME=====SERVICE SECTION ====================== */
 
 .services-section {
-  padding: 0 200px;
+  padding: 0 250px;
 }
 .services-container {
   display: flex;
@@ -628,8 +628,7 @@
 /* ================== ARTICLE SECTION ======================== */
 
 .article-section {
-  padding: 60px 200px;
-  /* border: 1px solid red; */
+  padding: 60px 250px;
 }
 
 .article-section-container {
