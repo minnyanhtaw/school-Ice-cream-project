@@ -140,7 +140,6 @@
   font-size: 16px;
   background-color: #fff6d8;
   font-weight: bold;
-  color: #41332c;
   border-radius: 15px;
   border: none;
   transition: 300ms;
@@ -148,21 +147,76 @@
   letter-spacing: 1px;
 }
 
-.question-box:hover {
+.question-box i {
+  color: #41332c;
+  transition: 300ms;
+}
+
+.question-box:focus i {
+  transform: rotate(180deg);
+}
+
+.answer {
+  height: 0;
+  width: 100%;
+  letter-spacing: 1px;
+  overflow: hidden;
+  transition: 300ms;
+  padding: 0 20px;
+  color: rgb(104, 104, 104);
+}
+
+.question-box:focus {
+  pointer-events: none;
   background-color: #eaa234;
   color: white;
 }
 
-.answer {
-  display: none;
-  opacity: 0;
-  letter-spacing: 1px;
+.question-box:focus + .answer {
+  line-height: 30px;
+  height: 70px;
 }
 
-.question-box:focus + .answer {
-  display: block;
-  opacity: 1;
-  padding: 0 20px;
-  line-height: 30px;
-  color: rgb(104, 104, 104);
+.table-section {
+  padding: 50px 250px;
+}
+
+.table-container {
+}
+.table {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table td {
+  padding: 10px;
+  /* border: 1px solid black; */
+}
+
+.table tr:nth-child(1) {
+  font-size: 60px;
+  color: #eaa234;
+}
+
+.table tr:nth-child(2) {
+  font-size: 40px;
+  position: relative;
+  font-weight: bold;
+  color: #41332c;
+  letter-spacing: 2px;
+}
+
+.table tr:nth-child(3) {
+  letter-spacing: 1px;
+  font-size: 18px;
+  color: #41332c;
+}
+
+.table tr:nth-child(2) td::after {
+  content: "+";
+  position: absolute;
+  top: 0;
+  color: red;
 }
