@@ -1,7 +1,7 @@
 /* MEET OUR TEAM  */
 
 .team-section {
-  padding: 50px 300px;
+  padding: 50px 250px;
 }
 
 .team-section-para {
@@ -108,7 +108,7 @@
 
 .question-section {
   display: flex;
-  padding: 50px 300px;
+  padding: 50px 250px;
   align-items: center;
 }
 
@@ -178,9 +178,11 @@
 }
 
 .table-section {
-  padding: 50px 300px;
+  padding: 50px 250px;
 }
 
+.table-container {
+}
 .table {
   margin: 0 auto;
   text-align: center;
