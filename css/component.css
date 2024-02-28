@@ -7,6 +7,28 @@
   scroll-behavior: smooth;
 }
 
+.top-background-clip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  z-index: 1;
+}
+
+.bottom-background-clip {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  transform: rotate(180deg);
+  height: 80px;
+  z-index: 1;
+}
+
+.fill {
+  fill: white;
+}
+
 .m-100 {
   margin-top: 100px;
 }
@@ -96,11 +118,9 @@
   display: flex;
   justify-content: space-between;
   padding: 20px 30px;
-  /* position: sticky; */
   top: 0;
   background-color: white;
   z-index: 100;
-  box-shadow: 2px 0px 3px black ;
 }
 .img-container img {
   width: 50px;
@@ -181,7 +201,7 @@
   /* margin-top: 100px; */
   align-items: center;
   gap: 30px;
-  padding: 50px 300px;
+  padding: 100px 300px;
 }
 .why-choose-us-bg-overlay {
   background-color: rgba(250, 247, 237, 0.725);
@@ -238,8 +258,9 @@
 /* Customer Review */
 
 .review-section {
-  padding: 100px 300px;
+  padding: 100px 300px 150px 300px;
   background-color: #fcf9ef;
+  position: relative;
 }
 
 .review-para {
@@ -352,8 +373,9 @@
 
 .footer-section {
   background-color: #fcf9ef;
-  padding: 50px 300px 0 300px;
+  padding: 100px 300px 0 300px;
   letter-spacing: 1px;
+  position: relative;
 }
 
 .footer-item-container {
@@ -459,6 +481,7 @@
   background-image: url('/img/vanilla-sweet-natural-ice-cream-background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .first-section-heading {
